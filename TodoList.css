@@ -1,0 +1,14 @@
+/* src/TodoList.css */
+
+.task-input {
+    background-color: #fafafa; /* Slightly darker background for task input fields */
+    border: 1px solid #ccc; /* Border color for task input fields */
+    border-radius: 4px; /* Rounded corners for task input fields */
+    padding: 8px; /* Padding inside the task input fields */
+    text-decoration: none; /* Remove text decoration */
+}
+
+.task-list .MuiListItem-root.completed .task-input {
+    text-decoration: line-through; /* Line-through text for completed tasks */
+    color: #9e9e9e; /* Light color for completed task text */
+}
